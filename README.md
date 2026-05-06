@@ -1,4 +1,4 @@
-# 🚢 Titanic Survival Prediction — ML System v2
+# 🚢 Titanic Survival Prediction — ML System 
 
 Production-ready Machine Learning system that predicts Titanic passenger survival.
 Rebuilt from the ground up addressing all v1 evaluation gaps.
