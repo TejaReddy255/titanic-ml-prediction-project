@@ -2,24 +2,7 @@
 
 Production-ready Machine Learning system that predicts Titanic passenger survival.
 Rebuilt from the ground up addressing all v1 evaluation gaps.
-
 ---
-
-## What changed vs v1
-
-| Area | v1 | v2 |
-|---|---|---|
-| API framework | Flask (no `/docs`) | **FastAPI** (Swagger UI built-in) |
-| Input validation | Manual dict checks | **Pydantic schemas** |
-| Features | 5 raw features | **8 features + 3 engineered** |
-| Recall | 68.8% | **Threshold-optimised for F1** |
-| Dockerfile PORT | Hardcoded 5000 | **`$PORT` env var** |
-| render.yaml | ❌ | **✅ included** |
-| Architecture diagram | Chat only | **✅ in this README** |
-| Dataset | Synthetic only | **Real Kaggle CSV supported** |
-
----
-
 ## Architecture
 
 ```
